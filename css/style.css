@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+.a{
+	width: 30%;
+	float: left;
+	height: 180px;
+	border: 2px solid black;
+	margin-left:20px;
+	margin-right: 20px;
+	background: lightgray;
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+
+}
+.b{
+	width: 35%;
+	margin-bottom: 10px;
+
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	float: right ;
+	position: static;
+	font-size: 125%
+	}
+p{
+	font-weight: bold;
+	padding: 30px 10px 10px 10px;
+}
+#b1{
+	background-color: yellow;
+font-weight: bold;
+}
+#b2{
+	background-color: darkred;
+	color: whitesmoke;
+	font-weight: bold;
+
+}
+#b3{
+	background-color: lightblue;
+	font-weight: bold;
+
+}
+@media (min-width:992px) {
+.a{
+	width: 28%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+#a1{
+ 	width: 42%;
+ }
+ #a2{
+ 	width: 42%;
+ }
+ #a3{
+ 	width: 88.5%;
+ 	float: left;
+ }
+}
+
+@media (max-width: 767px) {
+ #a1{
+ 	width: 90%;
+ 	float: left;
+ }
+  #a2{
+ 	width: 90%;
+ 	float: left;
+ }
+  #a3{
+ 	width: 90%;
+ 	float: left;
+ }
+}
